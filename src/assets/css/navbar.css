@@ -1,0 +1,28 @@
+.navbar-main{
+    display: flex;
+    height: 79px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: monospace;
+}
+.navbar-main .navbar-main-img{
+    display: flex;
+    height: 60px;
+    object-fit: cover;
+}
+.navbar-main .navbar-main-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.navbar-main .navbar-main-menu .optVal:hover{
+    color: gray;
+}
+.navbar-main .navbar-main-menu .optVal.selected{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
